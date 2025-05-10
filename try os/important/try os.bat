@@ -25,7 +25,7 @@ set /p menuselect=
 if %menuselect% == 1 goto write
 if %menuselect% == 2 goto browse
 if %menuselect% == 3 goto calculator
-if %menuselect% == 4 "C:\Users\russ1\OneDrive\Desktop\try os\setup.bat" cls
+if %menuselect% == 4 "../setup.bat" cls
 
 :write
 cls
@@ -110,7 +110,7 @@ echo 3)power off
 set /p ltdmenu=
 if %ltdmenu% == 1 goto ltdcalculator
 if %ltdmenu% == 2 goto clock
-if %ltdmenu% == 3 "C:\Users\russ1\OneDrive\Desktop\try os\setup.bat" cls
+if %ltdmenu% == 3 ".\try os\setup.bat" cls
 
 :clock 
 cls
